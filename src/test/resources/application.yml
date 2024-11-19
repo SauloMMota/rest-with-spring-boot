@@ -1,5 +1,7 @@
 server:
   port: 8888
+file:
+  upload-dir: /home/runner/work/rest-with-spring-boot/UploadDir
 spring:
   application:
     name: rest-with-spring-boot-and-java
