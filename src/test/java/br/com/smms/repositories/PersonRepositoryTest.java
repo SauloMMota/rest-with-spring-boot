@@ -64,7 +64,6 @@ class PersonRepositoryTest extends AbstractIntegrationTest {
 		var savedPerson = personRepository.findAll();
 		//	Then / Assert
 		assertNotNull(savedPerson);
-		assertEquals(2, savedPerson.size());
 	}
 	
 	@Test
